@@ -10,3 +10,7 @@ node app.js
 ````
 
 打开 `http://localhost:3000`, 收工
+
+## DEMO
+
+http://cnbeta-news.herokuapp.com/
