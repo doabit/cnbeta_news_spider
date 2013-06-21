@@ -1,0 +1,53 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+dl dt, dl dd{
+  margin: 0;
+}
+.items_area dl{
+  clear: both;
+  list-style: none;
+  border-bottom: 1px dotted #ccc;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.items_area dl dt a{
+  display: block;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.items_area dd img{
+  float: left;
+  width: 90px;
+  padding: 0 10px;
+}
+
+/*#realtime_news*/
+
+#realtime_news dl{
+  clear: both;
+  list-style: none;
+  border-bottom: 1px dotted #ccc;
+  overflow: hidden;
+  padding: 10px 0;
+  position: relative;
+}
+
+#realtime_news dl span{
+  position: absolute;
+  right: 0;
+  top: 20px;
+  color: #0ea74b;
+}
+#realtime_news dl dt a{
+  display: inline-block;
+  padding: 10px 0;
+  font-size: 16px;
+}
